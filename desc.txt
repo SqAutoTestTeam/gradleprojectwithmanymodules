@@ -1,0 +1,24 @@
+IntelliJ IDEA 2017.2
+Build #IC-172.3317.76, built on July 15, 2017
+JRE: 1.8.0_152-release-915-b5 x86_64
+JVM: OpenJDK 64-Bit Server VM by JetBrains s.r.o
+Mac OS X 10.9.5
+
+
+Gradle aware project with two modules
+
+1. Right click on module 1
+2. Context menu -- move module to group -- new top level group
+3. Dialog window - enter new group name - "group1"
+
+
+Expected behavior
+module is shown under group group1
+
+actual behavior
+module is still under no group, "nothing" happens
+
+Additional info
+
+1. Right click on module 1
+2. Context menu -- move module to group --- the group called "group1" in on the list
