@@ -6,7 +6,9 @@ Mac OS X 10.9.5
 
 
 Gradle aware project with two modules
+https://github.com/SqAutoTestTeam/gradleprojectwithmanymodules.git
 
+0. go to Project tab
 1. Right click on module 1
 2. Context menu -- move module to group -- new top level group
 3. Dialog window - enter new group name - "group1"
@@ -15,10 +17,18 @@ Gradle aware project with two modules
 Expected behavior
 module is shown under group group1
 
-actual behavior
-module is still under no group, "nothing" happens
+Actual behavior
+module is still not under any group, "nothing" happens.
 
 Additional info
 
 1. Right click on module 1
 2. Context menu -- move module to group --- the group called "group1" in on the list
+
+
+1. Reload Idea
+2. Right click on module 1
+3. Context menu -- move module to group --- the group called "group1" in on the list
+
+
+
